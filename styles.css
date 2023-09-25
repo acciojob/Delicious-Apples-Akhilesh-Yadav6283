@@ -1,1 +1,88 @@
 /* your code here */
+.photo-container{
+	width:350px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	border:none;
+	border-radius:10px;
+	box-shadow:0px 10px 10px gray;
+	background-color:white;
+	position:fixed;
+	left:140px;
+	top:140px;
+	z-index:1;
+}
+.photo-album>ul{
+	display:flex;
+	align-items:center;
+	list-style-type:none;
+}
+.photo-album>ul>li{
+	border:1px solid gray;
+	margin:5px
+}
+.photo-main{
+	background-color:#a0e317;
+
+}
+.photo-main img{
+	position:relative;
+	right:80px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	margin:15px
+}
+.controls>i{
+	color:whitesmoke
+}
+.product__info{
+	font-family:arial;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+    padding-left:400px;
+	background-color:white;
+	position:absolute;
+	top:100px;
+	width:500px;
+	height:600px;
+	border-radius:10px;	
+}
+.title>span{
+	color:gray;
+}
+.price{
+	color:#fe3f40;
+}
+.price>span{
+	font-size:50px;
+}
+.variant>ul{
+	display:flex;
+	list-style-type:none;
+}
+.variant li:first-child{
+	border:1px solid gray;
+}
+.product{
+	display:flex;
+	align-itmes:center;
+	justify-content:space-around
+}
+h3{
+	color:gray;
+}
+.btn{
+	color:white;
+	background-color:#fe3f40;
+	padding:15px;
+	border:none;
+	border-radius:10px;
+	width:40%;
+}
+body{
+	background-color:#1ed760;
+}
